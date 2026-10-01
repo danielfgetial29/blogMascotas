@@ -11,7 +11,7 @@ body {
     background-color: #f9e8e9;
 }
 
-/* ENCABEZADO */
+
 .encabezado {
     height: 44px;
     background-color: #fbf4c5;
@@ -74,7 +74,7 @@ body {
     margin-top: -3px;
 }
 
-/* CONTENIDO PRINCIPAL */
+
 .contacto {
     min-height: 556px;
     position: relative;
@@ -94,7 +94,7 @@ body {
     padding: 20px 5% 35px;
 }
 
-/* HUELLA */
+
 .huella {
     position: absolute;
     top: 20px;
@@ -104,7 +104,7 @@ body {
     filter: sepia(1) saturate(2) hue-rotate(25deg);
 }
 
-/* TÍTULO */
+
 .contacto h1 {
     position: relative;
     margin: 60px 0 15px 20px;
@@ -115,7 +115,7 @@ body {
     z-index: 2;
 }
 
-/* DISTRIBUCIÓN DEL CONTENIDO */
+
 .contenido {
     max-width: 1000px;
     min-height: 340px;
@@ -126,7 +126,7 @@ body {
     position: relative;
 }
 
-/* GATO DECORATIVO */
+
 .gato-decorativo {
     position: absolute;
     left: -65px;
@@ -142,7 +142,7 @@ body {
     object-fit: contain;
 }
 
-/* INFORMACIÓN */
+
 .informacion {
     grid-column: 1;
     margin-left: 155px;
@@ -186,7 +186,7 @@ body {
     font-size: 25px;
 }
 
-/* FORMULARIO */
+
 .formulario {
     grid-column: 2;
     width: 100%;
@@ -243,7 +243,7 @@ body {
     box-shadow: 0 0 0 2px #ed91ae;
 }
 
-/* BOTÓN ENVIAR */
+
 .formulario button {
     align-self: center;
     margin-top: 12px;
@@ -262,7 +262,7 @@ body {
     transform: scale(1.05);
 }
 
-/* PIE DE PÁGINA */
+
 .pie-pagina {
     min-height: 36px;
     padding: 7px 20px;
