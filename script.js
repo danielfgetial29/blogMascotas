@@ -13,3 +13,4 @@ async function cargarComponente(idContenedor, archivoHTML) {
 cargarComponente("navbar", "navbar.html");
 cargarComponente("home", "home.html");
 cargarComponente("footer", "footer.html");
+cargarComponente("about_us", "nosotros.html");

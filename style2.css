@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: #fffbd1;
+    background-image:url(./imagen/woofit.png);
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 800;
+}
+
+.fondo-nosotros {
+    background-color: #ffe8e8;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;     
+    padding: 40px 20px;
+}
+
+.contenido-centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;                  
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-titulo {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icono-huella {
+    position: absolute;
+    top: -25px;
+    left: -35px;
+    width: clamp(40px, 6vw, 65px);
+    height: auto;
+}
+
+.titulo-naranja {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: #ff7a3d;
+    margin: 0;
+    text-shadow: 2px 2px 0 #a94b23, -1px -1px 0 #a94b23, 1px -1px 0 #a94b23;
+}
+
+.contenedor-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.perrito-lateral {
+    position: static;             
+    width: clamp(100px, 18vw, 200px);
+    height: auto;
+    flex-shrink: 0;
+}
+
+.texto-principal {
+    flex: 1;
+    max-width: 650px;
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
+    color: #4a3e3d;
+    line-height: 1.6;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.subtitulo-naranja {
+    font-size: 2rem;
+    color: #ff7a3d;
+    margin-bottom: 15px;
+}
+
+.contenido-centrado .alert,
+.contenido-centrado .row {
+    width: 100%;
+}
+
+#carruselMascotas {
+    width: 100%;
+    max-width: 800px;
+}
+
+#carruselMascotas img {
+    width: 100%;
+    height: clamp(220px, 40vw, 450px);
+    object-fit: cover;           
+    border-radius: 12px;
+}
+
