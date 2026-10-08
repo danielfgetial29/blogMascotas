@@ -1,0 +1,64 @@
+/* CONFIGURACIÓN DEL NAVBAR FIJO */
+.mewoof-navbar {
+  position: fixed;                /* Fijado permanentemente en la pantalla */
+  top: 0;                         /* Pegado arriba */
+  left: 0;                        /* Pegado al borde izquierdo */
+  width: 100%;                    /* Ocupa todo el ancho de la pantalla */
+  box-sizing: border-box;         /* Protege el ancho de los márgenes internos */
+  z-index: 9999;                  /* Capa superior para flotar por encima de tus columnas */
+  
+  display: flex;
+  justify-content: space-between; /* Distribuye elementos en los extremos */
+  align-items: center;            /* Centrado vertical */
+  background-color: #fef6c7;      /* Color de fondo extraído de la imagen */
+  padding: 15px 40px;             /* Grosor y separación interna */
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Sombra sutil para marcar la elevación */
+}
+
+/* CONTENEDOR DE ENLACES */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;                      /* Distancia uniforme entre enlaces y barras */
+  margin-left: auto;              /* Centra visualmente el menú respecto a la barra */
+  margin-right: auto;
+}
+
+/* ENLACES (INICIO, NOSOTROS, CONTACTENOS) */
+.nav-links a {
+  color: #514625;                 /* Marrón oscuro idéntico a la foto */
+  text-decoration: none;          /* Limpia el subrayado predeterminado */
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* DIVISORES VERTICALES '|' */
+.nav-separator {
+  color: #514625;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* LOGOTIPO MEWOOF EN LA DERECHA */
+.nav-logo {
+  display: flex;
+  flex-direction: column;         /* Apila verticalmente el nombre y el eslogan */
+  align-items: flex-end;          /* Alinea el texto a la derecha */
+}
+
+.logo-main {
+  color: #bdbdbd;                 /* Gris claro para la palabra mewoof */
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 0.9;
+}
+
+.logo-sub {
+  color: #fbc02d;                 /* Dorado/amarillo para la letra chica */
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+

@@ -10,6 +10,6 @@ async function cargarComponente(idContenedor, archivoHTML) {
 }
 
 // Integración de toda la página
-// cargarComponente("navbar", "navbar.html");
+cargarComponente("navbar", "navbar.html");
 cargarComponente("home", "home.html");
-// cargarComponente("footer", "footer.html");
+cargarComponente("footer", "footer.html");
