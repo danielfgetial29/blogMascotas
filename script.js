@@ -11,5 +11,5 @@ async function cargarComponente(idContenedor, archivoHTML) {
 
 // Integración de toda la página
 // cargarComponente("navbar", "navbar.html");
-cargarComponente("home", "home.html"); // ¡Aquí entra tu trabajo!
+cargarComponente("home", "home.html");
 // cargarComponente("footer", "footer.html");
