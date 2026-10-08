@@ -1,0 +1,46 @@
+/* CONFIGURACIÓN DEL FOOTER EN UNA SOLA LÍNEA */
+.mewoof-footer {
+  display: flex;
+  justify-content: center;        /* Centra la tira de texto horizontalmente */
+  align-items: center;            /* Alinea verticalmente */
+  background-color: #fef6c7;      /* Mismo color amarillo de fondo */
+  padding: 14px 20px;             /* Grosor interno del pie de página */
+  gap: 20px;                      /* Espaciado regular automático entre textos y círculos */
+  font-family: Arial, sans-serif;
+  color: #514625;                 /* Texto en color marrón */
+  font-size: 13px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* MARCA */
+.footer-brand {
+  font-weight: bold;
+}
+
+/* CÍRCULOS SEPARADORES '●' */
+.footer-dot {
+  font-size: 9px;                 /* Tamaño sutil para igualar la imagen */
+  color: #514625;
+}
+
+/* EQUIPO */
+.footer-team {
+  font-weight: normal;
+}
+
+/* ENLACE DE CORREO */
+.footer-email {
+  color: #514625;
+  text-decoration: none;          /* Sin subrayar para copiar tu referencia visual */
+}
+
+/* Efecto opcional interactivo al pasar el cursor sobre el correo */
+.footer-email:hover {
+  text-decoration: underline;
+}
+
+/* TELÉFONO */
+.footer-phone {
+  font-weight: normal;
+}

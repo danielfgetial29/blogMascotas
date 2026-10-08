@@ -62,7 +62,7 @@ html, body {
   justify-content: space-between;
 }
 
-/* Marca / Logo en la esquina superior izquierda */
+
 .bloque-marca {
   text-align: left;
 }
@@ -84,15 +84,15 @@ html, body {
   margin-top: 5px;
 }
 
-/* Contenedor de las mascotas */
+
 .bloque-mascotas {
   text-align: center;
   width: 100%;
-  margin-top: auto; /* Empuja las mascotas hacia abajo */
+  margin-top: auto;
 }
 
 .bloque-mascotas img {
-  max-width: 80%; /* Ajusta el tamaño de la imagen dentro de la pantalla */
+  max-width: 80%; 
   max-height: 60vh;
   object-fit: contain;
 }
