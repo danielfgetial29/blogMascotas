@@ -1,98 +1,36 @@
-/* --- RESET BÁSICO --- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+/* Estilos para home.html */
+.inicio-contenedor {
+  position: relative;
+  height: 460px;
+  background-color: #e98ba8;
+  overflow: hidden;
 }
 
-/* Hacemos que la página ocupe el 100% de la pantalla */
-html, body {
+/* Logo */
+
+.logo-mewoof {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  z-index: 2;
+}
+
+.logo-mewoof img {
+  width: 240px;
+  height: auto;
+}
+
+/* Mascotas */
+
+.mascotas-area {
+  position: absolute;
+  bottom: 0;
+  left: 17%;
+  width: 75%;
+}
+
+.mascotas-imagen {
+  display: block;
   width: 100%;
-  height: 100%;
-}
-
-/* --- CONTENEDOR PRINCIPAL AL 100% --- */
-.contenedor-principal {
-  width: 100%;
-  min-height: 100vh; /* Ocupa todo el alto de la pantalla */
-  display: flex;
-  flex-direction: column;
-}
-
-/* --- 1. BARRA DE NAVEGACIÓN (ANCHO COMPLETO) --- */
-.barra-navegacion {
-  background-color: #f3e0b5; /* Fondo beige/crema */
-  width: 100%;
-  padding: 15px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu-enlaces {
-  margin: 0 auto; /* Centra los enlaces */
-}
-
-.menu-enlaces a {
-  text-decoration: none;
-  color: #6b4d27;
-  font-weight: bold;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-
-.menu-enlaces .separador {
-  color: #6b4d27;
-  margin: 0 15px;
-}
-
-.logo-superior img {
-  height: 25px;
-}
-
-/* --- 2. BANNER PRINCIPAL (ANCHO Y ALTO COMPLETO) --- */
-.seccion-banner {
-  background-color: #f39db2; /* Fondo rosado */
-  width: 100%;
-  flex: 1; /* Ocupa todo el espacio vertical restante */
-  padding: 30px 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* Marca / Logo en la esquina superior izquierda */
-.bloque-marca {
-  text-align: left;
-}
-
-.icono-hueso img {
-  width: 70px;
-}
-
-.titulo-mewoof {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1;
-}
-
-.subtitulo-mewoof {
-  color: #fbe39d;
-  font-size: 20px;
-  margin-top: 5px;
-}
-
-/* Contenedor de las mascotas */
-.bloque-mascotas {
-  text-align: center;
-  width: 100%;
-  margin-top: auto; /* Empuja las mascotas hacia abajo */
-}
-
-.bloque-mascotas img {
-  max-width: 80%; /* Ajusta el tamaño de la imagen dentro de la pantalla */
-  max-height: 60vh;
-  object-fit: contain;
+  height: auto;
 }
