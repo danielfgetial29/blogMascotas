@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de mascotas - Quiénes Somos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
-    
-    <!-- Menú de navegación superior -->
-    <header>
-        <nav>
-            <a href="index.html">INICIO</a> | 
-            <a href="nosotros.html">NOSOTROS</a> | 
-            <a href="contacto.html">CONTACTENOS</a>
-        </nav>
-    </header>
+    <div class="container-fluid">
+    <div class="row">
 
+        <aside class="col-12 col-md-2">
+            <!-- Publicidad futura -->
+        </aside>
 
-    <section class="fondo-nosotros">
+        <main class="col-12 col-md-8">
+        <section class="fondo-nosotros">
         <div class="contenido-centrado">
             
 
@@ -33,29 +32,117 @@
                     Wellness Pet Blog es un espacio creado para compartir información, consejos y recomendaciones sobre el bienestar y cuidado de las mascotas. Nuestro objetivo es brindar contenido útil para quienes consideran a sus animales de compañía parte importante de la familia.
                 </p>
             </div>
+            <div class="alert alert-warning text-center" role="alert">
+    🐾 Nuestro propósito es compartir información útil para mejorar
+    el bienestar y cuidado de nuestras mascotas.
+</div>
+<div class="row g-3 mt-4">
 
-            <h3 class="subtitulo-naranja">Nuestro equipo</h3>
-
-            <div class="contenedor-avatares">
-                <img src="imagen/5(1).png" alt="Darwin">
-                <img src="imagen/5(1).png" alt="Daniel">
-                <img src="imagen/4(1).png" alt="Laura">
-                <img src="imagen/5(1).png" alt="Diego">
-                <img src="imagen/4(1).png" alt="Naya">
+    <div class="col-md-4">
+        <div class="card text-center h-100">
+            <div class="card-body">
+                <h5 class="card-title">🐶 Bienestar</h5>
+                <p class="card-text">
+                    Promover el cuidado y bienestar de las mascotas.
+                </p>
             </div>
-
-            <p class="nombres-equipo">Darwin - Daniel - Laura - Diego - Naya</p>
-            
         </div>
-    </section>
+    </div>
 
-    <footer>
-        <p>mewoof</p>
-        <p>Darwin - Daniel - Laura - Diego - Naya</p>
-        <p>uncorreo@mewoof.com</p>
-        <p>+57 300 555 5555</p>
-    </footer>
+    <div class="col-md-4">
+        <div class="card text-center h-100">
+            <div class="card-body">
+                <h5 class="card-title">📚 Información</h5>
+                <p class="card-text">
+                    Compartir información clara y útil para los propietarios.
+                </p>
+            </div>
+        </div>
+    </div>
 
+    <div class="col-md-4">
+        <div class="card text-center h-100">
+            <div class="card-body">
+                <h5 class="card-title">❤️ Comunidad</h5>
+                <p class="card-text">
+                    Crear una comunidad interesada en el cuidado animal.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="carruselMascotas" class="carousel slide mt-5">
+
+    <div class="carousel-indicators">
+        <button type="button"
+                data-bs-target="#carruselMascotas"
+                data-bs-slide-to="0"
+                class="active">
+        </button>
+
+        <button type="button"
+                data-bs-target="#carruselMascotas"
+                data-bs-slide-to="1">
+        </button>
+
+        <button type="button"
+                data-bs-target="#carruselMascotas"
+                data-bs-slide-to="2">
+        </button>
+    </div>
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="imagen/Mascota1.png"
+                 class="d-block w-100"
+                 alt="Mascota">
+        </div>
+
+        <div class="carousel-item">
+            <img src="imagen/mascota2.jpg"
+                 class="d-block w-100"
+                 alt="Mascota">
+        </div>
+
+        <div class="carousel-item">
+            <img src="imagen/mascota3.jpg"
+                 class="d-block w-100"
+                 alt="Mascota">
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carruselMascotas"
+            data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon"></span>
+
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carruselMascotas"
+            data-bs-slide="next">
+
+        <span class="carousel-control-next-icon"></span>
+
+    </button>
+
+</div>
+    </div>
+
+        </div> 
+        </section>
+        </main>
+    </div> 
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
