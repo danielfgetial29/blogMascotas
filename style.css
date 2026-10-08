@@ -1,0 +1,36 @@
+/* Estilos para home.html */
+.inicio-contenedor {
+  position: relative;
+  height: 460px;
+  background-color: #e98ba8;
+  overflow: hidden;
+}
+
+/* Logo */
+
+.logo-mewoof {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  z-index: 2;
+}
+
+.logo-mewoof img {
+  width: 240px;
+  height: auto;
+}
+
+/* Mascotas */
+
+.mascotas-area {
+  position: absolute;
+  bottom: 0;
+  left: 17%;
+  width: 75%;
+}
+
+.mascotas-imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+}
