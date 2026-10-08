@@ -4,18 +4,12 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-
 header {
     background-color: #fffbd1;
+    background-image:url(./imagen/woofit.png);
     padding: 15px 0;
     text-align: center;
     font-weight: 800;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #4a3e3d;
-    margin: 0 10px;
 }
 
 .fondo-nosotros {
@@ -23,7 +17,7 @@ header nav a {
     min-height: 85vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;     
     padding: 40px 20px;
 }
 
@@ -31,7 +25,9 @@ header nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    width: 100%;                  
+    max-width: 1000px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -44,37 +40,42 @@ header nav a {
     position: absolute;
     top: -25px;
     left: -35px;
-    width: 65px; 
+    width: clamp(40px, 6vw, 65px);
     height: auto;
 }
 
 .titulo-naranja {
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
     color: #ff7a3d;
     margin: 0;
-    
     text-shadow: 2px 2px 0 #a94b23, -1px -1px 0 #a94b23, 1px -1px 0 #a94b23;
 }
 
 .contenedor-texto {
-    position: relative;
-    max-width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
     margin-bottom: 30px;
 }
 
 .perrito-lateral {
-    position: absolute;
-    left: -200px; 
-    top: -10px;
-    width: 200px; 
+    position: static;             
+    width: clamp(100px, 18vw, 200px);
     height: auto;
+    flex-shrink: 0;
 }
 
 .texto-principal {
-    font-size: 1.1rem;
+    flex: 1;
+    max-width: 650px;
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
     color: #4a3e3d;
     line-height: 1.6;
     font-weight: 700;
+    margin: 0;
+    text-align: left;
 }
 
 .subtitulo-naranja {
@@ -83,40 +84,20 @@ header nav a {
     margin-bottom: 15px;
 }
 
-.contenedor-avatares {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 15px;
+.contenido-centrado .alert,
+.contenido-centrado .row {
+    width: 100%;
 }
 
-.contenedor-avatares img {
-    width: 80px;  
-    height: 80px; 
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+#carruselMascotas {
+    width: 100%;
+    max-width: 800px;
 }
 
-/* Nombres del equipo en la parte inferior */
-.nombres-equipo {
-    font-size: 1.8rem;
-    color: #5c4e42;
-    font-weight: 800;
-    margin-top: 10px;
+#carruselMascotas img {
+    width: 100%;
+    height: clamp(220px, 40vw, 450px);
+    object-fit: cover;           
+    border-radius: 12px;
 }
 
-/* Pie de página (Footer) */
-footer {
-    background-color: #f7d6d6;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-    color: #4a3e3d;
-}
-
-footer nav a {
-    text-decoration: none;
-    color: #4a3e3d;
-    margin: 0 10px;
-}
